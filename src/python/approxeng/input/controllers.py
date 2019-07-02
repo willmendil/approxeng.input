@@ -91,7 +91,7 @@ class ControllerRequirement:
         self.require_class = require_class
         self.snames = require_snames
 
-    def accept(self, discovery: ControllerDiscovery):
+    def accept(self, discovery= ControllerDiscovery):
         """
         Returns True if the supplied ControllerDiscovery matches this requirement, False otherwise
         """
